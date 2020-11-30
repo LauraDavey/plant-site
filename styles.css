@@ -90,25 +90,46 @@ main p {
 
 /* Services Styles */
 
+.services-section {
+  background-image: url("images/chris-abney-qLW70Aoo8BE-unsplash.jpg");
+  background-repeat: cover;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  box-shadow: 0 -5px 15px black;
+  width: 100%;
+  padding: 90px 0;
+}
+
 #services {
+  background-color: white;
   border: 3px solid black;
   box-shadow: 3px 5px 20px black;
   margin: 0 auto;
   width: 90%;
 }
 
+.services-section hr, .services-heading {
+  display: inline-block;
+}
+
+.services-section hr {
+  border: 2px solid black;
+  margin: 0 15px 15px;
+  width: 20px;
+}
+
 .services-heading {
   font-family: 'Shrikhand', cursive;
-  font-size: 3em;
+  font-size: 3.5em;
   font-weight: 500;
-  margin: 90px auto 70px;
+  margin: 90px auto 55px;
 }
 
 .service-tile-container {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-bottom: 50px;
   width: 100%;
 }
