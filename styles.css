@@ -95,9 +95,10 @@ main p {
   background-repeat: cover;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
-  box-shadow: 0 -5px 15px black;
-  width: 100%;
+  box-shadow: 0 0 15px 5px black;
+  margin-bottom: 50px;
   padding: 90px 0;
+  width: 100%;
 }
 
 #services {
@@ -157,3 +158,17 @@ main p {
 /* Team Styles */
 /* Contact Styles */
 /* Footer Styles */
+
+footer {
+  justify-content: space-evenly;
+  background: linear-gradient(0deg, hsla(0, 0%, 0%, 0.65), hsla(0, 0%, 0%, 0.65)), url("images/annie-spratt-lRcoPGrwkv0-unsplash.jpg");
+  background-size: cover;
+  box-shadow: 0 0 15px 5px black;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.85em;
+  font-weight: normal;
+  min-height: 110px;
+  padding-top: 40px;
+}
