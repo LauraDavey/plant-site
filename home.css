@@ -1,41 +1,5 @@
-/* Page Styles */
-
-html {
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-  font-weight: 600;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-body {
-  margin: 0;
-}
 
 /* Header Styles */
-
-nav {
-  background-color: white;
-  top: 0;
-  box-shadow: 0 5px 10px black;
-  height: 60px;
-  position: fixed;
-  width: 100%;
-  z-index: 2;
-}
-
-nav ul {
-  display: flex;
-  justify-content: space-around;
-  margin: 0 auto;
-  padding: 20px 0;
-  width: 80%;
-}
-
-nav li {
-  display: inline-block;
-}
 
 .banner {
   align-content: center;
@@ -157,23 +121,3 @@ main p {
 
 /* Team Styles */
 /* Contact Styles */
-/* Footer Styles */
-
-footer {
-  justify-content: space-evenly;
-  background-color: white;
-  box-shadow: 0 0 10px 5px black;
-  color: black;
-  display: flex;
-  flex-wrap: wrap;
-  font-size: 0.85em;
-  font-weight: 600;
-  min-height: 90px;
-  padding-top: 40px;
-  position: relative;
-  z-index: 3;
-}
-
-footer div {
-  margin: 0 30px 20px;
-}
