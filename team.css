@@ -1,0 +1,68 @@
+/* Services Styles */
+
+.team {
+  background-image: url("images/alex-loup-kOGx9eBTMds-unsplash.jpg");
+  background-repeat: cover;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  box-shadow: 0 0 15px 5px black;
+  margin-bottom: 15px;
+  padding: 30px 0;
+  width: 100%;
+}
+
+.team article {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.heading-container {
+  background-color: hsla(360, 100%, 100%, 0.7);
+}
+
+.team hr, .team h1 {
+  display: inline-block;
+}
+
+.team hr {
+  border: 2px solid black;
+  margin: 0 15px 15px;
+  width: 20px;
+}
+
+.team h1 {
+  font-family: 'Shrikhand', cursive;
+  font-size: 3.5em;
+  font-weight: 500;
+  margin: 90px auto 55px;
+}
+
+.tile-container {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.tile {
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 1px 2px 5px black;
+  font-weight: 600;
+  margin: 30px;
+  width: 220px;
+}
+
+.tile p {
+  padding: 10px;
+}
+
+.wide-tile {
+  width: 300px;
+}
+
+.tile img {
+  max-width: 100%;
+}
