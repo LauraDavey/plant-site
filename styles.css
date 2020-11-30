@@ -16,14 +16,20 @@ body {
 /* Header Styles */
 
 nav {
-  margin: 20px 0;
+  background-color: white;
+  top: 0;
+  box-shadow: 0 5px 10px black;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
 }
 
 nav ul {
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
-  padding: 0;
+  padding: 20px 0;
   width: 80%;
 }
 
@@ -34,19 +40,22 @@ nav li {
 .banner {
   align-content: center;
   align-items: center;
-  background: linear-gradient(0deg, hsla(0, 0%, 0%, 0.6), hsla(0, 0%, 0%, 0.6)), url("images/annie-spratt-lRcoPGrwkv0-unsplash.jpg");
+  background: linear-gradient(0deg, hsla(0, 0%, 0%, 0.6), hsla(0, 0%, 0%, 0.6)), url("images/annie-spratt-8mqOw4DBBSg-unsplash.jpg");
   background-size: cover;
+  box-shadow: 0 5px 20px black;
   color: white;
   display: flex;
   flex-wrap: wrap;
   height: 500px;
   justify-content: center;
+  margin-top: 60px;
 }
 
 h1 {
   font-family: 'Shrikhand', Cursive;
   font-size: 5em;
   font-weight: normal;
+  letter-spacing: 0.05em;
   margin-bottom: 0;
   padding-bottom: 30px;
   padding-top: 50px;
@@ -62,7 +71,21 @@ h1 {
 /* Main Styles */
 
 main {
+  display: flex;
+  flex-wrap: wrap;
   height: 400px;
+  justify-content: center;
+  align-content: center;
+}
+
+main h2 {
+  width: 100%;
+}
+
+main p {
+  line-height: 2.3em;
+  min-width: 500px;
+  width: 60%;
 }
 
 /* Services Styles */
