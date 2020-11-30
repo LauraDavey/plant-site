@@ -96,7 +96,7 @@ main p {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   box-shadow: 0 0 15px 5px black;
-  margin-bottom: 50px;
+  margin-bottom: 15px;
   padding: 90px 0;
   width: 100%;
 }
@@ -161,8 +161,8 @@ main p {
 
 footer {
   justify-content: space-evenly;
-  background-size: cover;
-  box-shadow: 0 0 15px 3px black;
+  background-color: white;
+  box-shadow: 0 0 10px 5px black;
   color: black;
   display: flex;
   flex-wrap: wrap;
@@ -170,6 +170,8 @@ footer {
   font-weight: 600;
   min-height: 90px;
   padding-top: 40px;
+  position: relative;
+  z-index: 3;
 }
 
 footer div {
