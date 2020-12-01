@@ -51,7 +51,7 @@ main p {
   width: 60%;
 }
 
-/* Services Styles */
+/* 'What We Do' Styles */
 
 .services-section {
   background-image: url("images/chris-abney-qLW70Aoo8BE-unsplash.jpg");
@@ -64,7 +64,7 @@ main p {
   width: 100%;
 }
 
-#services {
+.services {
   background-color: white;
   border: 3px solid black;
   box-shadow: 3px 5px 20px black;
