@@ -24,6 +24,12 @@ a:hover {
   text-decoration: underline;
 }
 
+h1 {
+  font-family: 'Shrikhand', cursive;
+  font-size: 5em;
+  font-weight: normal;
+}
+
 /* Nav Styles */
 
 nav {
