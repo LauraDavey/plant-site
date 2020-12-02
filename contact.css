@@ -1,4 +1,75 @@
 body {
-  background-image: url("images/annie-spratt-lRcoPGrwkv0-unsplash.jpg");
-  background-size: cover;
+
+}
+
+.contact {
+  background-color: hsla(360, 100%, 100%, 1);
+  font-size: 1.1em;
+  font-weight: 400;
+  margin: 0 auto 400px;
+  min-width: 900px;
+  padding: 30px 0;
+  width: 90%;
+}
+
+
+.heading {
+  display: inline-block;
+}
+
+hr {
+  border: 2px solid black;
+  margin: 0 15px 15px;
+  width: 20px;
+}
+
+h1.heading {
+  color: black
+  font-size: 4em;
+  margin-top: 130px;
+}
+
+.contact-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.contact-text ul {
+  background-image: url("images/mockup-graphics-75AiRF5xm0U-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  max-width: 500px;
+}
+
+.contact-text li {
+  display: block;
+  margin-bottom: 20px;
+}
+
+
+.contact-text .studio {
+  margin-bottom: 4px;
+}
+
+.note {
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+.social {
+  background-image: url("images/mockup-graphics-_mUVHhvBYZ0-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-width: 400px;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.social img {
+  width: 70px;
 }
