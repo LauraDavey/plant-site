@@ -20,7 +20,7 @@ a {
 }
 
 a:hover {
-  color: hsla(155, 52%, 26%, 1);
+  color: rgb(7, 114, 70);
   text-decoration: none;
 }
 
