@@ -21,7 +21,7 @@ a {
 
 a:hover {
   color: hsla(155, 52%, 26%, 1);
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 h1 {
