@@ -11,7 +11,6 @@ article {
 }
 
 article div {
-  background-size: cover;
   display: inline-block;
   height: 100%;
 }
@@ -28,13 +27,13 @@ hr {
   margin-bottom: 70px;
 }
 
-.left h2 {
+.left-text {
   margin-left: 150px;
   margin-right: auto;
 }
 
 
-.right h2 {
+.right-text {
   margin-right: 150px;
   margin-left: auto;
 }
@@ -48,11 +47,13 @@ hr {
 }
 
 .left-img {
+  background-size: cover;
   margin-left: 0;
   padding-left: 0;
 }
 
 .right-img {
+  background-size: cover;
   margin-right: 0;
   padding-right: 0;
 }
