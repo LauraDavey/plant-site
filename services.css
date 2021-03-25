@@ -20,6 +20,10 @@ article h2 {
   margin-top: 40px;
 }
 
+article p {
+  max-width: 700px;
+}
+
 hr {
   border-color: white;
   border-style: solid;
