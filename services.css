@@ -1,0 +1,87 @@
+h3 {
+  margin: auto;
+  padding-bottom: 100px;
+  width: 60%;
+}
+
+article {
+  display: flex;
+  height: 400px;
+  margin-bottom: 70px;
+  width: 100%;
+}
+
+article div {
+  background-size: cover;
+  display: inline-block;
+  height: 100%;
+}
+
+article h2 {
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.left h2 {
+  margin-left: 150px;
+  margin-right: auto;
+}
+
+
+.right h2 {
+  margin-right: 150px;
+  margin-left: auto;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.left-img {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.right-img {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+#wedding {
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0), 60%, white), url('images/wedding.jpg');
+  width: 30%;
+}
+
+#restaurant {
+  background-image: linear-gradient(270deg, rgba(255, 255, 255, 0), 60%, white), url('images/restaurant.jpg');
+  width: 40%;
+}
+
+#home-design {
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0), 60%, white), url('images/baby.jpg');
+  width: 20%;
+}
+
+#greenhouse-cafe {
+  background-image: linear-gradient(270deg, rgba(255, 255, 255, 0), 60%, white), url('images/greenhouse-cafe.jpg');
+  width: 30%;
+}
+
+#studio {
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0), 60%, white), url('images/photography-studio.jpg');
+  width: 20%;
+}
+
+#trowel {
+  background-image: linear-gradient(270deg, rgba(255, 255, 255, 0), 60%, white), url('images/trowel.jpg');
+  width: 30%;
+}
+
+#succulents {
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0), 60%, white), url('images/succulents.jpg');
+  width: 25%;
+}
