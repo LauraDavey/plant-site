@@ -7,7 +7,6 @@ h3 {
 article {
   display: flex;
   height: 400px;
-  margin-bottom: 70px;
   width: 100%;
 }
 
@@ -20,6 +19,13 @@ article div {
 article h2 {
   display: inline-block;
   margin-top: 40px;
+}
+
+hr {
+  border-color: white;
+  border-style: solid;
+  color: white;
+  margin-bottom: 70px;
 }
 
 .left h2 {
